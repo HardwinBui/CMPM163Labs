@@ -1,2 +1,4 @@
 # CMPM163Labs
-A repository for my assignments for CMPM163 at UCSC.
+
+lab 2
+video: https://drive.google.com/file/d/17jfkKoHkQXqcE-02sG0wZYWiwN76UaPN/view?usp=sharing
