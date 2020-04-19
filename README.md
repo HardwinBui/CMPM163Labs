@@ -10,10 +10,10 @@ video: https://drive.google.com/file/d/1ohHOBMqkH0mxcK_fUP-TfkpE43qwgZdQ/view?us
 
 Cube Material From Left to Right:
 
-1) 
+1) Used the THREE.MeshBasicMaterial function with the color set to orange and wireframe enabled
 
-2) Use the THREE.MeshPhongMaterial with color as 0xdddddd, specular as 0x00ff00, and shininess as 30
+2) Used the THREE.MeshPhongMaterial function with color as gray, specular as green, and shininess as 30
 
-3)
+3) Used a matrial with a simple vertex and fragment shader. The vertex shader maintained the position of the vertices on the mesh. The fragment shader returns the interpolation of two colors(used two different blueish colors) based on the z-coordinate of the fragment. Specifically, interpolation was done using the mix() function.
 
-4)
+4) Used a material with the same vertex shader in cube 3 and a different fragment shader output. For this cube, the fragment shader would output a color for the fragment based on its position. The fragment's x-coordinate was used for the value of red, y-coordinate for the value of green, and z-coordinate for the value of blue.
