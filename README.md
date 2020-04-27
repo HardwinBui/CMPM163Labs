@@ -21,6 +21,14 @@ Cube Material From Left to Right:
 ## lab 4 ##
 video: https://drive.google.com/file/d/1zWtMgJdBW8OuczLAlTpcwrekAo9OnN7E/view?usp=sharing
 
+Answers to Questions:
+
+24a) 7u
+
+24b) 7(1-v)
+
+24c) gray
+
 How I Made Each Cube:
 
 1) Bottom Left: The material is a THREE.MeshPhongMaterial() material with a map set to the texture loaded from "156.jpg". Used the built-in three.js texture function to load in the texture.
