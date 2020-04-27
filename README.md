@@ -23,8 +23,13 @@ video: https://drive.google.com/file/d/1zWtMgJdBW8OuczLAlTpcwrekAo9OnN7E/view?us
 
 How I Made Each Cube:
 
-1) Bottom Left: The material is a THREE.MeshPhongMaterial() material with a map set to the texture loaded from "156.jpg"
+1) Bottom Left: The material is a THREE.MeshPhongMaterial() material with a map set to the texture loaded from "156.jpg". Used the built-in three.js texture function to load in the texture.
 
-2) Bottom Middle: The material is a THREE.MeshPhongMaterial() material with a map set to the texture loaded from "156.jpg" and a normalMap set to the texture loaded from "156_norm.jpg"
+2) Bottom Middle: The material is a THREE.MeshPhongMaterial() material with a map set to the texture loaded from "156.jpg" and a normalMap set to the texture loaded from "156_norm.jpg". Used the built-in three.js texture function to load in the textures.
 
+3) Top Middle: The material is a THREE.MeshPhongMaterial() material with a map set to the texture loaded from "161b.jpg" and a normalMap set to the texture loaded from "161_norm.jpg". Used the built-in three.js texture function to load in the textures.
+
+4) Bottom Right: The material was made by using a custom fragement and vertex shader, which were provided in the assignment. The vertex shader passes the uv coordinates to the fragment shader. The fragment shaders takes in a given texture and uses a 1 to 1 mapping with the uv coordinates to place it on the cube.
+
+5) Top Right: The material was made using the same vertex shader, but different fragment shader. The fragment shader still takes a given texture and places it on a cube, but the mapping is diffferent. It'll take the uv coordinates provided by the fragment shader and multiply them by 2. If the u-coordinate is greater than 1 afterwards, I subtract 1 from that value. If the v-coordinate is greater than 1, I subtract 1 from that value. 
 
