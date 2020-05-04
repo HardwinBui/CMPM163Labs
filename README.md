@@ -41,3 +41,8 @@ How I Made Each Cube:
 
 5) Top Right: The material was made using the same vertex shader, but different fragment shader. The fragment shader still takes a given texture and places it on a cube, but the mapping is diffferent. It'll take the uv coordinates provided by the fragment shader and multiply them by 2. If the u-coordinate is greater than 1 afterwards, I subtract 1 from that value. If the v-coordinate is greater than 1, I subtract 1 from that value. 
 
+## lab 5 ##
+- changed player model by replacing the material on the Skinned Mesh Renderer to a basic green one
+- replaced the skybox material on the camera with a basic one I made using the Skybox/Procedural material option
+- made the road orange by changing the mesh renderer on each road object to have a basic orange material
+- increased the intensity on ambient occlusion in the postprocessvolume gameObject
