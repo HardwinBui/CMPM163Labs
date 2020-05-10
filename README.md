@@ -54,6 +54,7 @@ Changes:
 
 ## lab 6 ##
 Image of Scene: https://drive.google.com/file/d/1kcIad1mVZ5PLCDTp-SFCd-g7a_7OmNIW/view?usp=sharing
+<img src="images/compare.png" width="300">
 
 Image of Material Comparison: https://drive.google.com/file/d/1g_llotp5eeLY-CzylmNkMlw-pPQm_Hs2/view?usp=sharing
 
