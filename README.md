@@ -53,9 +53,9 @@ Changes:
 - increased the intensity on ambient occlusion in the postprocessvolume gameObject
 
 ## lab 6 ##
-Image of Scene:
+Image of Scene: https://drive.google.com/file/d/1kcIad1mVZ5PLCDTp-SFCd-g7a_7OmNIW/view?usp=sharing
 
-Image of Material Comparison: 
+Image of Material Comparison: https://drive.google.com/file/d/1g_llotp5eeLY-CzylmNkMlw-pPQm_Hs2/view?usp=sharing
 
 Light Definitions:
 - Point Light illuminates the scene based on the light’s position in the scene. It shines equally in all directions, so rotation of the object has no influence.
