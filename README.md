@@ -57,14 +57,15 @@ Image of Scene:
 
 Image of Material Comparison: 
 
+Light Definitions:
 - Point Light illuminates the scene based on the light’s position in the scene. It shines equally in all directions, so rotation of the object has no influence.
 - Directional Light effects all objects in the scene, lighting them based on the direction of the light determined by the game object’s rotation. The position of the light has no influence.
 - Spotlight points in a direction based on the rotation of their game object and illuminate all objects within a cone. They are influenced by both the rotation and position of their game object
 - Area Light shines in all directions to one side of a rectangular plane. These only work when baking a light map.
 
-How I made the gold material:
+Gold Material:
 I tried making a golden metal material by changing the albedo color to orangish-yellow, metallic value to 1, and smoothened value to 0.348. I also had to add a reflection prob in order to get the metal effect to appear in the scene.
 
 Textures: I used one brick texture and one rocky texture
 
-skybox: I added a cloudy morning skybox.
+Skybox: I added a cloudy morning skybox.
