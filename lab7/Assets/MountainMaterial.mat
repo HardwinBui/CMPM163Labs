@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MountainMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 6106d297dfb594eb79c74530f259bd04,
+  m_Shader: {fileID: -6465566751694194690, guid: 2f3ee42f47d60473681c4226f0784b47,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -243,7 +243,7 @@ Material:
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
---- !u!114 &5435075272696097073
+--- !u!114 &157890652261108269
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
