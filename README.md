@@ -74,6 +74,7 @@ Skybox: I added a cloudy morning skybox.
 
 ## lab 7 ##
 I chose to do Part 1.
+
 Video: https://drive.google.com/file/d/1IoulDedBf6Dlrp6KYcwt53-3ohvC-IYU/view?usp=sharing
 
 How I made the scene:
