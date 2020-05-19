@@ -71,3 +71,12 @@ I tried making a golden metal material by changing the albedo color to orangish-
 Textures: I used one brick texture and one rocky texture
 
 Skybox: I added a cloudy morning skybox.
+
+## lab 7 ##
+I chose to do Part 1.
+Video: https://drive.google.com/file/d/1IoulDedBf6Dlrp6KYcwt53-3ohvC-IYU/view?usp=sharing
+
+How I made the scene:
+- The snow capped mountains were made by using the shader from the first given tutorial. However, I changed the shader so that the voronoi noise node only uses the x and z values of the position as an input. I also added a dirt texture to the mountain by placing a 2D texture node into the last node of the shader graph. I tried to make the mountains look snow capped by doing some math with a white texture and the dirt texture. I'd see if the y-value for the final position vector is greater than 7. If it is, then I'd add the white texture to the dirt texture.
+- The wave was directly taken from the second tutorial and nothing significant was added.
+- I added a skybox and various 3D models I downloaded for free on the asset store.
