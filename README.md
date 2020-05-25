@@ -97,4 +97,4 @@ Explaination:
 
 The city of inspiration got me to change the building layout and arrangement of the tutorial. I tried to imitate the city by copying the general structure of each tower-like mass of buildings. I'm not sure what these are called, so I'll just call them towers. Each tower is made up of many small houses that stack up on each other to form the general shape of a cone. The arrangement of houses are roughly the same, but each individual house is random. At the top of each tower, there is a structure larger than the size of the houses. I didn't get many free assets, so I combined various building prefabs to create three different structures that are supposed to imitate these larger structures.
 
-I tried to message my partner on Discord to answer the final 3 questions to gether, but they never replied to me.
+My partner didn't respond to me on Discord by the time I wanted to turn this assignment in, so I wasn't able to get their answers for the final 3 questions.
