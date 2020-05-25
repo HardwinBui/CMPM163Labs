@@ -87,9 +87,9 @@ I tried to message my partner on Discord to answer the final 3 questions to geth
 ## lab 8 ##
 I chose to do Part 1.
 
-Inspiration Image:
+Inspiration Image: https://drive.google.com/file/d/1UJih4iBRiJ6Z4XsHiOW5ZvawMm849ZfO/view?usp=sharing
 
-Resulting Image: 
+Resulting Image: https://drive.google.com/file/d/1v-uXWooPCBhm_yyYdp0I4KHu2E-2n-cY/view?usp=sharing
 
 Explination:
 The city of inspiration got me to change the building layout and arrangement of the tutorial. I tried to imitate the city by copying the general structure of each tower-like mass of buildings. I'm not sure what these are called, so I'll just call them towers. Each tower is made up of many small houses that stack up on each other to form the general shape of a cone. The arrangement of houses are roughly the same, but each individual house is random. At the top of each tower, there is a structure larger than the size of the houses. I didn't get many free assets, so I combined various building prefabs to create three different structures that are supposed to imitate these larger structures.
