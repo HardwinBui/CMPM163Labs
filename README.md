@@ -115,4 +115,5 @@ To make my L-system, I simple changed the grammar/rules of the code that the tut
 - axiom: 1
 - rules: (1 -> 0+1+0+1+0), (0 -> 1-0-1-0-1)
 - angle: 36 degrees
+
 0 and 1 both mean "draw forward", + means "turn left by angle", and − means "turn right by angle".
