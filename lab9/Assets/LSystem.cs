@@ -14,9 +14,21 @@ public class LSystem : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
+        /*
         axiom = "F";
         rules.Add('F', "FF+[+F-F-F]-[-F+F+F]");
         angle = 25f;
+        */
+        /*
+        axiom = "F-G-G";
+        rules.Add('F', "F-G+F+G-F");
+        rules.Add('G', "GG");
+        angle = 90f;
+        */
+        axiom = "1";
+        rules.Add('1', "0+1+0+1+0");
+        rules.Add('0', "1-0-1-0-1");
+        angle = 36f;
 
         curString = axiom; 
         StartCoroutine(GenerateLSystem());
@@ -41,10 +53,10 @@ public class LSystem : MonoBehaviour {
     }
 
     IEnumerator Generate() {
-        length = length / 2f;
         string newString = "";
 
         char[] stringChars = curString.ToCharArray();
+        
 
         for (int i = 0; i < stringChars.Length; i++) {
             char curChar = stringChars[i];
@@ -62,17 +74,12 @@ public class LSystem : MonoBehaviour {
         for (int i = 0; i < stringChars.Length; i++) {
             char curChar = stringChars[i];
 
-            if (curChar == 'F') {
-                // Move forward
-                Vector3 initPos = transform.position;
-                transform.Translate (Vector3.forward * length);
-                Debug.DrawLine(initPos, transform.position, Color.white,10000f,false);
-                yield return null;
-            }
-            else if(curChar == '+') {
+            if(curChar == '+') {
+                //transform.Rotate(Vector3.up * angle);
                 transform.Rotate(Vector3.up * angle);
             }
             else if(curChar == '-') {
+                print("called");
                 transform.Rotate(Vector3.up * -angle);
             }
             else if(curChar == '[') {
@@ -85,6 +92,13 @@ public class LSystem : MonoBehaviour {
                 TransformInfo ti = transformStack.Pop();
                 transform.position = ti.position;
                 transform.rotation = ti.rotation;
+            }
+            else {
+                // Move forward
+                Vector3 initPos = transform.position;
+                transform.Translate (Vector3.forward * length);
+                Debug.DrawLine(initPos, transform.position, Color.white,10000f,false);
+                yield return null;
             }
         }
         isGenerating = false;
