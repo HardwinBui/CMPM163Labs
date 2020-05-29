@@ -106,24 +106,19 @@ Tutorial Image: https://drive.google.com/file/d/1UJih4iBRiJ6Z4XsHiOW5ZvawMm849Zf
 <img src="images/inspiration.png" width="500">
 
 My L-System Image: ## lab 8 ##
-I chose to do Part 1.
+I chose to do Part 1. NOTE: You have to move around and change the view angle in the scene view to see the L-system.
 
 Inspiration Image: https://drive.google.com/file/d/1PX4HcvX1MEi6A4SKRGuCUcCjbq0sURy3/view?usp=sharing
-<img src="images/inspiration.png" width="500">
+<img src="images/tutorialLSystem.png" width="500">
 
 Resulting Image: https://drive.google.com/file/d/1v-uXWooPCBhm_yyYdp0I4KHu2E-2n-cY/view?usp=sharing
-<img src="images/reality.png" width="500">
+<img src="images/secondLsystem.png" width="500">
 
 To make my L-system, I simple changed the grammar/rules of the code that the tutorial had given. The rules to make my L-system are:
 
-variables: 0 1
-
-constants: + 1
-
-axiom: 1
-
-rules: (1 -> 0+1+0+1+0), (0 -> 1-0-1-0-1)
-
-angle: 36 degrees
-
+- variables: 0 1
+- constants: + 1
+- axiom: 1
+- rules: (1 -> 0+1+0+1+0), (0 -> 1-0-1-0-1)
+- angle: 36 degrees
 0 and 1 both mean "draw forward", + means "turn left by angle", and − means "turn right by angle".
