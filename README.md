@@ -111,7 +111,7 @@ My L-System Image: https://drive.google.com/file/d/1KKGRrhgLdzJ1J3SzA4qrIzmb9ggC
 To make my L-system, I simple changed the grammar/rules of the code that the tutorial had given. The rules to make my L-system are:
 
 - variables: 0 1
-- constants: + 1
+- constants: + -
 - axiom: 1
 - rules: (1 -> 0+1+0+1+0), (0 -> 1-0-1-0-1)
 - angle: 36 degrees
